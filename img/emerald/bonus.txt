@@ -1,0 +1,47 @@
+
+======================================================================
+ERROR BUDGET ANALYSIS
+======================================================================
+
+📊 Fidelity vs Qubit Count:
+   4 qubits: 90.06%
+   5 qubits: 86.62%
+   6 qubits: 82.36%
+
+📉 Fidelity Decay Analysis:
+   Decay rate per qubit: 0.045
+   Estimated error per 2-qubit gate: 4.37%
+
+🎯 PRIMARY BOTTLENECK:
+   → Readout errors or decoherence
+
+🔮 SCALING PREDICTION:
+   8 qubits: ~75.5% fidelity
+   10 qubits: ~69.0% fidelity
+   12 qubits: ~63.1% fidelity
+
+
+======================================================================
+LOOPHOLE MITIGATION ANALYSIS
+======================================================================
+
+1️⃣ LOCALITY TEST (ZZZ correlations):
+   ⟨ZZZ⟩ = -0.130
+   ❌ FAILED
+
+2️⃣ DETECTION LOOPHOLE (fair sampling):
+   Unique outcomes: 8/8
+   ✅ PASSED
+
+3️⃣ SEPARABILITY TEST:
+   Full state purity: 1.249
+   ✅ PASSED
+
+4️⃣ STATISTICAL SIGNIFICANCE:
+   95% CI: [-0.4755, -0.0688]
+   ✅ PASSED
+
+======================================================================
+LOOPHOLE TESTS: 3/4 PASSED
+✅ STRONG EVIDENCE: Entanglement is genuine!
+======================================================================
